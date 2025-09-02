@@ -2,7 +2,6 @@
 
 #include <lvgl.h>
 
-extern const lv_img_dsc_t hammerbeam1;
 extern const lv_img_dsc_t hammerbeam2;
 extern const lv_img_dsc_t hammerbeam3;
 extern const lv_img_dsc_t hammerbeam4;

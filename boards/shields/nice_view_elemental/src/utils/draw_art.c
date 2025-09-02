@@ -5,7 +5,7 @@
 
 // Array of image descriptors
 static const lv_img_dsc_t* artworks[] = {
-    &hammerbeam1, &hammerbeam2, &hammerbeam3, &hammerbeam4, &hammerbeam5,
+    &hammerbeam2, &hammerbeam3, &hammerbeam4, &hammerbeam5,
     &hammerbeam6, &hammerbeam7, &hammerbeam8, &hammerbeam9, &hammerbeam10,
     &hammerbeam11, &hammerbeam12, &hammerbeam13, &hammerbeam14, &hammerbeam15,
     &hammerbeam16, &hammerbeam17, &hammerbeam19,
