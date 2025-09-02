@@ -47,7 +47,7 @@ lv_obj_t* zmk_display_status_screen() {
     
     // Create the info canvas to be used in the `render_connectivity` function.
     connectivity_canvas = lv_canvas_create(screen);
-    lv_obj_align(connectivity_canvas, LV_ALIGN_TOP_RIGHT, 0, 0);
+    lv_obj_align(connectivity_canvas, LV_ALIGN_BOTTOM_RIGHT, 0, 0);
     lv_canvas_set_buffer(
         connectivity_canvas,
         connectivity_canvas_buffer,
