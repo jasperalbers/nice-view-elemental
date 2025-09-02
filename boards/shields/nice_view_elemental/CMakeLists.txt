@@ -4,13 +4,6 @@ if(CONFIG_ZMK_DISPLAY AND CONFIG_NICE_VIEW_WIDGET_STATUS)
   zephyr_library_sources(
     ./src/main.c
     ./src/fonts/custom_font_22.c
-    ./src/images/background_0.c
-    ./src/images/background_1.c
-    ./src/images/background_2.c
-    ./src/images/background_3.c
-    ./src/images/background_4.c
-    ./src/images/background_5.c
-    ./src/images/background_6.c
     ./src/images/art.c
     ./src/images/bluetooth_logo_outlined.c
     ./src/images/bluetooth_logo.c
