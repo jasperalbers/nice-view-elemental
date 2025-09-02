@@ -13,7 +13,7 @@
 #include "../../include/fonts/custom_font_outline.h"
 #include "../../include/main.h"
 #include "../../include/utils/draw_battery.h"
-#include "../../include/utils/draw_background.h"
+#include "../../include/utils/draw_art.h"
 #include "../../include/utils/draw_bluetooth_searching.h"
 #include "../../include/utils/draw_bluetooth_logo_outlined.h"
 #include "../../include/utils/draw_bluetooth_logo.h"
@@ -85,7 +85,7 @@ void render_main() {
     // Unfortunately, text transparency does not seem to work in LVGL 8.3. This
     // forces us to redraw the background on every render instead of having it
     // on a layer underneath.
-    draw_background(main_canvas, states.background_index);
+    draw_art(main_canvas, states.background_index);
 #endif
 
     // Capitalize the layer name if given or use the layer number otherwise.

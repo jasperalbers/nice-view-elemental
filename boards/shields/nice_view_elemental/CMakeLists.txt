@@ -15,7 +15,7 @@ if(CONFIG_ZMK_DISPLAY AND CONFIG_NICE_VIEW_WIDGET_STATUS)
     ./src/images/bluetooth_logo.c
     ./src/images/bluetooth_searching.c
     ./src/images/usb_logo.c
-    ./src/utils/draw_background.c
+    ./src/utils/draw_art.c
     ./src/utils/draw_battery.c
     ./src/utils/draw_bluetooth_logo_outlined.c
     ./src/utils/draw_bluetooth_logo.c
