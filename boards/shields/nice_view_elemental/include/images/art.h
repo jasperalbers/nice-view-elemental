@@ -11,6 +11,7 @@ extern const lv_img_dsc_t hammerbeam6;
 extern const lv_img_dsc_t hammerbeam7;
 extern const lv_img_dsc_t hammerbeam8;
 extern const lv_img_dsc_t hammerbeam9;
+extern const lv_img_dsc_t hammerbeam10;
 extern const lv_img_dsc_t hammerbeam11;
 extern const lv_img_dsc_t hammerbeam12;
 extern const lv_img_dsc_t hammerbeam13;
